@@ -1,0 +1,108 @@
+
+.todo-container {
+  margin: 0;
+  width: 100%;
+}
+
+.todo-header {
+   background-color: rgb(111, 155, 236);
+    min-height: 200px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 0 !important;
+}
+
+
+.todo-content {
+  margin-top: 50px;
+   min-height: 200px;
+   width: 80%;
+   margin-left: 10%;
+}
+
+.header-title {
+  color: white;
+  padding: 20px 50px 0 0;
+}
+
+.content-title {
+  color: gray;
+  text-align: center;
+  font-size: 16pt;
+}
+
+h1, .add-new {
+  padding-right: 15px;
+}
+
+.right {
+  text-align: right;
+}
+
+.add-container {
+  width: 96%;
+  padding: 20px 10px 0 20px;
+}
+
+.add-container input{
+  width: 95%;
+  padding-left: 10px;
+  border-radius: 5px;
+  line-height: 35px;
+  color: gray;
+  font-size: 16px;
+  margin-left: 40px;
+}
+
+.add-container button{
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: rgb(111, 155, 236);
+  border: lightgray 1px solid;
+  padding: 10px;
+  margin: 10px 0 10px 0;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.task-table {
+  margin-top: 10px;
+  width: 60%;
+}
+
+.task-row {
+  display: inline-flex;
+}
+
+.task-cell {
+  border: gray 1px solid;
+  padding: 5px;
+  width: 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table-cell-name {
+  width: 200px;
+  word-wrap: break-word;
+}
+
+
+.task-action-cell {
+  border: gray 1px solid;
+  padding: 5px;
+  min-width: 160px;
+  text-align: center;
+}
+
+.task-action {
+  margin-left: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgb(218, 213, 213);
+  border: whitesmoke 1px solid;
+  color: gray;
+  cursor: pointer;
+}
